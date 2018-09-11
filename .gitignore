@@ -1,2 +1,6 @@
 .Rhistory
 *.csv
+data/irri/*.014
+data/irri/*.015
+data/irri/*.016
+data/isu/*.xlsx
