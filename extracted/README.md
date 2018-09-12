@@ -1,4 +1,4 @@
-#/data/extracted/*
+# /data/extracted/*
 <br>
 
 
