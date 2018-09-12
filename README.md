@@ -7,7 +7,10 @@ Script for extracting, merging and comparing ISU weather data with IRRI's
 1. **weatherfile.R**<br>
 A utility object for managing IRRI's individual weather data files
 
-2. **main.R**<br>
+2. **isuirriweather.R**<br>
+A utility object for managing ISU's individual weather data files
+
+3. **main.R**<br>
 Main script for processing ISU's and IRRI's weather data files
 
 
