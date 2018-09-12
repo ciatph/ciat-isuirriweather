@@ -1,6 +1,6 @@
 ## A utility object for managing IRRI's individual weather data files
 ## ciatph, 20180911
-weatherfile <- function(lon = NULL, lat = NULL, data = NULL){
+irriweather <- function(lon = NULL, lat = NULL, data = NULL){
   
   ## Gets the IRRI weather station ID given coordinates in decimal degrees
   ## Uses the internal object lon and lat variables
