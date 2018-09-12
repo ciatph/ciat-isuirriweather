@@ -1,9 +1,10 @@
-## Read ISU weather data that matches columns with the IRRI weather data
+## A utility object for managing ISU's individual weather data files
+## Reads an ISU weather file with matching predefined columns with the IRRI weather data
 ## USAGE:
 ##  w <- isuweather()
 ##  w$loadsheets("<filename>.xlsx")
 ##  a <- w$getdata()
-## ciatph, 20180911
+## ciatph, 20180912
 
 # Dependencies
 library(readxl)
