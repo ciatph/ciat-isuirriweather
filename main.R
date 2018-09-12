@@ -52,8 +52,7 @@ extractIRRI <- function() {
 
 ## Process and extract ISU weather data
 extractISU <- function() {
-  filenames <- c("Weather2015_Isabela.xlsx")
-  #filenames <- c("Weather2014_Isabela.xlsx")
+  filenames <- c("Weather2014_Isabela.xlsx", "Weather2015_Isabela.xlsx")
   
   for(i in 1:length(filenames)) {
     
