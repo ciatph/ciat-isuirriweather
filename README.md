@@ -13,6 +13,12 @@ A utility object for managing ISU's individual weather data files
 3. **main.R**<br>
 Main script for processing ISU's and IRRI's weather data files
 
+3. **main.bat**<br>
+Windows batch script for running `main.R` without opening in RStudio. 
+	- Open main.bat in a text editor and set `pathtorexe` to your R's `\bin` installation directory. For example,<br>
+	`set pathtorexe="C:\Program Files\R\R-3.5.0\bin\"`
+	- Click *main.bat* to run
+	
 
 ## Usage
 
@@ -36,4 +42,4 @@ Main script for processing ISU's and IRRI's weather data files
 <br>
 
 **Date Created:** 20180911<br>
-**Date Modified:** 20180912
+**Date Modified:** 20180913
