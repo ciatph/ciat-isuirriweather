@@ -13,11 +13,9 @@ A utility object for managing ISU's individual weather data files
 3. **main.R**<br>
 Main script for processing ISU's and IRRI's weather data files
 
-3. **main.bat**<br>
-Windows batch script for running `main.R` without opening in RStudio. 
-	- Open main.bat in a text editor and set `pathtorexe` to your R's `\bin` installation directory. For example,<br>
-	`set pathtorexe="C:\Program Files\R\R-3.5.0\bin\"`
-	- Click *main.bat* to run
+4. **main.bat**<br>
+Windows batch script for running `main.R` without opening in RStudio. *(see Usage #4)*
+
 	
 
 ## Usage
@@ -28,7 +26,11 @@ Windows batch script for running `main.R` without opening in RStudio.
 	- Set the working directory to the cloned repository, i.e.: <br>
 		`setwd(setwd("D:/LAB/R/ciat-isuirriweather")`
 	- Run `source("main.R")`.
-4. Wait for (5) csv files to be generated in the `/extracted` directory:
+	- Alternatively, you can do #4 instead.
+4. Open main.bat in a text editor and set `pathtorexe` to your R's `\bin` installation directory. For example,<br>
+	`set pathtorexe="C:\Program Files\R\R-3.5.0\bin\"`
+	- Click *main.bat* to run
+5. Wait for (5) csv files to be generated in the `/extracted` directory:
 	- export\_irri_014.csv 
 	- export\_irri_015.csv
 	- export\_irri_016.csv
