@@ -2,6 +2,14 @@
 Script for extracting, merging and comparing ISU weather data with IRRI's
 
 
+## Dependencies
+
+1. R (version 3.5.0 was used for this project)
+2. R packages (please install the following using `install.packages()` if they are not yet installed):
+	- `readxl`
+	- `stringr`
+
+
 ## Files
 
 1. **weatherfile.R**<br>
